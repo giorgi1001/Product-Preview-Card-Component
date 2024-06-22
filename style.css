@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+body {
+  width: 1440px;
+  height: 100dvh;
+  background-color: #f2eae2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  width: 600px;
+}
+.left {
+  width: 300px;
+}
+.left img {
+  width: 100%;
+}
+.right {
+  width: 300px;
+  padding: 0 31.5px 0 31.5px;
+  background-color: white;
+}
+h1 {
+  width: 92px;
+  margin: 32px 54.5px 20px 0;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  letter-spacing: 5px;
+  letter-spacing: 5px;
+  color: #6c7289;
+}
+h2 {
+  width: 236px;
+  margin: 20px 0.5px 24px 0;
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  color: #1c232b;
+}
+.right p {
+  width: 237px;
+  margin: 24px 0 29px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.64;
+  color: #6c7289;
+}
+.price {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.price1 {
+  width: 127px;
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  color: #3d8168;
+}
+.price2 {
+  width: 48px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.77;
+  color: #6c7289;
+  text-decoration: line-through;
+}
+button {
+  width: 236px;
+  margin: 30px 0 32px 0;
+  padding: 15px 62px 15px 63px;
+  border-radius: 8px;
+  background-color: #3d8168;
+  border: none;
+  display: flex;
+  gap: 12px;
+}
+button img {
+  width: 14.4px;
+  height: 16px;
+}
+button span {
+  width: 85px;
+  height: 17px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+button:hover {
+  background-color: #1a4032;
+  cursor: pointer;
+}
+
+@media (max-width: 343px) {
+  .main {
+    width: 343px;
+    padding: 0 0 24px;
+    background-color: #fff;
+    flex-direction: column;
+  }
+  .left img {
+    width: 342.8px;
+  }
+}
